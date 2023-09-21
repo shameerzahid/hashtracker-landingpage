@@ -1,0 +1,321 @@
+
+.header
+{
+    background-image: linear-gradient(to right bottom, rgba(0,84,166,0.59) 12.85%,rgba(0,84,166,0) 113.8%), url("bgimg.jpg");
+    background-size: cover;
+    background-position: top;
+    
+    animation-name: bgcar;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+z-index: -1;
+    height: 95vh;
+}
+
+@keyframes bgcar {
+    0% {
+        background-image: linear-gradient(to right bottom, rgba(3, 93, 182, 0.59) 12.85%,rgba(0, 83, 166, 0.425) 113.8%), url("bgimg.jpg");
+    }
+    33%{
+         background-image:linear-gradient(to right bottom, rgba(0,84,166,0.59) 12.85%,rgba(0,84,166,0) 113.8%), url("bgimg2.jpg");
+        } 
+    66%
+    {
+        background-image: linear-gradient(to right bottom, rgba(0,84,166,0.59) 12.85%,rgba(0,84,166,0) 113.8%), url("bgimg3.jpg");
+    }
+    }
+
+.head
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+.start
+{
+    display: flex;
+}
+.topheading
+{
+    margin-top: 6vh;
+ color: white;
+
+}
+.heading
+{
+    margin-left: 6vh;
+    color: white;
+}
+.NumberB{
+    margin-left: 6vh;
+    margin-top: 5vh;
+}
+.h
+{
+    margin-left: 10vh;
+    margin-top: 15vh;
+
+}
+.logo1
+{
+    height: 15vh;
+    margin-left: 5vh;
+    margin-top: 4vh;
+}
+.linkshover:hover
+{
+    color: rgba(200, 215, 230, 0.877);
+
+}
+.list ul li
+{
+    display: inline;
+    margin: 5vh;
+   
+   
+}
+.list
+{
+    margin-top: 6vh;
+    margin-right: 0vh;
+}
+.list ul li a
+{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.login
+{
+    margin: 4vh;
+
+}
+.sndheading
+{
+    font-size: medium;
+    color:  white;
+    padding-top: 8vh;
+}
+.sndheading2
+{
+    font-size: medium;
+    color: #133e75!important;
+    padding-top: 8vh;
+}
+/* .main
+{
+    background-color: whitesmoke;
+z-index: 4;
+} */
+.response
+{
+    box-sizing: border-box;
+    padding-left: 10vh;
+    height: 28vh;
+    width: 80vw;
+    background-color: whitesmoke;
+    margin: auto auto auto auto;
+    transform: translateY(-11vh);
+    border-radius: 5vh;
+}
+   
+   
+   .break
+   {
+    height: 25vh;
+    background-color: whitesmoke;
+   }
+   #btnsnd
+   {
+background-color: rgba(0,84,166,0.59);
+border: 2px solid rgb(101, 101, 173);
+   }
+   #phone
+   {
+background-color: rgb(48, 46, 46);
+border: 2px solid;
+   }
+   #btnsnd:hover
+   {
+    background-color: rgba(0, 0, 0, 0.59);
+   }
+   #contact
+   {
+    background-color: rgba(0,84,166,0.59);
+border: 2px solid rgb(101, 101, 173);
+color: red;
+   }
+   #contact:hover
+   {
+    background-color: rgba(0, 0, 0, 0.59);
+   }
+   #formbtn
+   {
+    background-color: rgba(0,84,166,0.59);
+border: 2px solid rgb(101, 101, 173);
+   }
+   #formbtn:hover
+   {
+    background-color: rgba(0, 0, 0, 0.59);
+   }
+#main
+{
+    background-color: whitesmoke;
+}
+.resflex
+{
+    margin-top: -1.5vh;
+}
+   .inputs
+   {
+    margin: 0 3vh 0 3vh;
+ background-color: #e7e2e2;
+ border-radius: 8px;
+ height: 7vh;
+ width: 15vw;
+   }
+
+.container1
+{
+    display: flex;
+}
+
+
+/* about company css */
+.aboutcompany
+{
+    height: 78vh;
+    font-family: Verdana, sans-serif;
+    background-image:linear-gradient(to right bottom, rgba(0,84,166,0.59) 12.85%,rgba(0,84,166,0) 113.8%),  url("bgimg4.jpg");
+background-size: cover;
+margin-top: -18vh;
+z-index: -1;
+}
+.flex
+{
+    display: flex;
+
+}
+/* .carimg
+
+{
+    padding: 0 6vh 0 6vh;
+    width: 42vw;
+    height: 77vh;
+    background-image:url("bgimg5.jpg");
+background-size: cover;
+
+} */
+
+  
+
+.offeredtext
+{
+    color: white;
+    padding: 0 6vh 0 6vh;
+    font-size: 2.5vh;
+  
+    text-align: justify;
+}
+
+/* people css */
+.people
+{
+    text-align: center;
+    background-color: whitesmoke;
+}
+.txt
+{
+    font-family: Verdana, sans-serif;
+    font-size: 2vh;
+    margin-bottom: 2vh;
+}
+.designations
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+  
+}
+.dpz{
+    width: 60%;
+    height: 50%;
+    border-radius: 60%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.card
+{
+    margin-right: 10vh;
+}
+.checked {
+    color: orange;
+  }
+  
+  .peopleheading
+  {
+    padding-top: 3vh;
+   color: #133e75!important;
+  }
+
+  /* get solution css */
+  .imgbar
+  {
+    height: 38vh;
+    background-image: linear-gradient(to right bottom, rgba(0,84,166,0.59) 12.85%,rgba(0,84,166,0) 113.8%), url("bgimg6.jpg");
+  }
+  .headofficeheading
+  {
+   color: rgba(0,84,166,0.59);
+  }
+  
+
+  .headoffice{
+   padding-top: 10vh;
+    margin-left:15vw;
+  }
+
+  .headform{
+
+    justify-content: center;
+padding-left: 10vh;
+    margin-left:55vw;
+    background-color: whitesmoke;
+    align-content: center;
+    margin-right:5vw;
+    margin-top:-70vh;
+    border-radius: 5vh;
+    height: 100vh;
+
+  }
+  .textfieldswd
+  {
+    width: 22vw;
+    background-color: rgb(0 84 166 / 4%);
+  }
+.consult
+{
+    background-color: whitesmoke;
+}
+body{
+    background-color: whitesmoke;
+}
+ 
+
+
+
+
+
+.btn-responsive {
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
+.card
+{
+    width: 18rem;
+}
